@@ -1,0 +1,272 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.iy-img{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/bg6.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    height: 600px;    
+}
+.iy-img .iy-h1aut,.iy-phaut{
+    position: relative;
+    left: 100px;
+    top:200px;
+    color: #fff;
+}
+.iy-header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin: 10px;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;    
+}
+.iy-presentation{
+    background-color:rgb(209, 194, 194)
+}
+.iy-titre-pre{
+    border-bottom: 1px solid #ee82ee;
+    width: 250px;
+    position: relative;
+    left: 20em;
+}
+.iy-presentation p,.iy-titre-pre{
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+}
+.iy-traveaux{
+    background-color: #ffebcd;
+}
+.iy-all{
+    background-color: #000;
+    color: #fff;
+    top: 15px;
+    position: relative;
+    right: 90px;
+}
+.iy-elmnt{
+    background-color: rgb(209, 194, 194);
+    top: 15px;
+    position: relative;
+    left: 100px;
+}
+h2{
+    text-align: center;
+}
+.iy-cadre{
+    border-radius: 1px solid rgb(209, 194, 194);
+    -webkit-border-radius: 1px solid rgb(209, 194, 194);
+    -moz-border-radius: 1px solid rgb(209, 194, 194);
+    -ms-border-radius: 1px solid rgb(209, 194, 194);
+    -o-border-radius: 1px solid rgb(209, 194, 194);
+    background-color: rgb(209, 194, 194);
+    width: 210px;
+    height: 190px;
+    margin: 15px;
+    padding: 10px;
+}
+.color-cctv{
+    color: #000;
+}
+.iy-group{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.iy-cadre img{
+    height: 190px;
+    width: 210px;
+}
+.iy-services{
+    background-color: #ddd;
+}
+.iy-cadre-service{
+    border-radius: 1px solid rgb(209, 194, 194);
+    -webkit-border-radius: 1px solid rgb(209, 194, 194);
+    -moz-border-radius: 1px solid rgb(209, 194, 194);
+    -ms-border-radius: 1px solid rgb(209, 194, 194);
+    -o-border-radius: 1px solid rgb(209, 194, 194);
+    background-color: #fff;
+    width: 210px;
+    height: 190px;
+    margin: 45px;
+    padding: 45px;
+}
+.iy-titleservice{
+    border-bottom: 1px solid #ee82ee;
+    width: 250px;
+    position: relative;
+    left: 20em;
+    margin: 15px;
+    padding: 15px;
+    top: 10px;
+}
+.iy-cadre-img{
+    height: 160px;
+    width: 190px;
+}
+.iy-competence{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.iy-container-html{
+    background-color: #ccc;
+    width: 50%;
+    margin: 10px;
+}
+.iy-html{
+    background-color: #f00;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+}
+.iy-container-css{
+    background-color: #ccc;
+    width: 50%;
+    margin: 10px;
+}
+.iy-css{
+    background-color: #00f;
+    width: 60%;
+    color: #fff;
+    text-align: center;
+}
+.iy-container-js{
+    background-color: #ccc;
+    width: 50%;
+    margin: 10px;
+}
+.iy-js{
+    background-color: #ff0;
+    width: 30%;
+    color: #fff;
+    text-align: center;
+}
+.iy-container-windev{
+    background-color: #ccc;
+    width: 50%;
+    margin: 10px;
+}
+.iy-windev{
+    background-color: rgb(7, 7, 167);
+    width: 85%;
+    color: #fff;
+    text-align: center;
+}
+.iy-container-mysql{
+    background-color: #ccc;
+    width: 50%;
+    margin: 10px;
+}
+.iy-mysql{
+    background-color: rgb(17, 216, 206);
+    width: 65%;
+    color: #fff;
+    text-align: center;
+}
+.iy-container-php{
+    background-color: #ccc;
+    width: 50%;
+    margin: 10px;
+}
+.iy-php{
+    background-color: rgb(39, 145, 245);
+    width: 80%;
+    color: #fff;
+    text-align: center;
+}
+.iy-compe-cadre{
+    border: 1px solid #ddd;
+    width: 630px;
+    height: 330px;
+    background-image: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+}
+.iy-titlecompe{
+   position: relative;
+   right: 65px;
+   margin: 15px;
+   padding: 15px;
+}
+.iy-contact{
+    background-color: #ddd;
+}
+.iy-formgroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.iy-inputgr{
+    width: 100%;
+}
+.iy-inputgr input,textarea{
+    width: 100%;
+    border: 1px solid #888;
+    padding: 12px 20px;
+    margin: 5px;
+}
+.iy-titlecontact{
+    position: relative;
+    left: 16em;
+    margin: 10px;
+    padding: 10px;
+    top: 15px;
+}
+.iy-btn{
+    background-color: #000;
+    color: #fff;
+}
+.iy-divbtn{
+    position: relative;
+    left: 5.3em;
+    width: 100px;
+    height: 90px;
+   margin: 10px;
+   padding: 10px;
+}
+.iy-footer{
+    background-color: #000;
+}
+.iy-footimg{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.iy-image-foot{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    margin: 10px;
+    left: 50em;
+}
+.iy-html{
+    background-color: #f00;
+}
